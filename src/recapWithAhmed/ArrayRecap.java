@@ -36,12 +36,12 @@ public class ArrayRecap {
         numbers[1] = 2;
         //OR we assign the value when we create the Array
         //storing primitives in Array
-        int[] numbers2 = {1,2};
+        int[] numbers2 = {1, 2};
         System.out.println(Arrays.toString(numbers));//[1, 2, 0, 0, 0]
         System.out.println(Arrays.toString(numbers2));//[1, 2]
 
         //storing String Object in an Array
-        String[] names = {"David","Alex","Jim"};
+        String[] names = {"David", "Alex", "Jim"};
 
         //How we PROVE that ArrayList can store only Object data type
         ArrayList mix = new ArrayList();
@@ -51,13 +51,7 @@ public class ArrayRecap {
 
         //numbers2[1].replace --> is not going to work because its primitive data BUT
         //there is this manipulation with string methods using valueOf()
-        String.valueOf(numbers2[1]).replace('2','5');
-
-
-
-
-
-
+        String.valueOf(numbers2[1]).replace('2', '5');
 
     }
 }

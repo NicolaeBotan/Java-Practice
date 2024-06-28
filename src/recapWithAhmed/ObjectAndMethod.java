@@ -30,7 +30,7 @@ public class ObjectAndMethod {
                --> It can have ACCESS MODIFIERS(Public,Private,Protected,DEFAULT*)
 
                --->LOCAL VARIABLES belong to BLOCKS.
-               --->NO DEFAULT VALUE (means that you gave to INITIALIZE THEM)
+               --->NO DEFAULT VALUE (means that you have to INITIALIZE THEM)
                --->NO ACCESS MODIFIERS
 
      */

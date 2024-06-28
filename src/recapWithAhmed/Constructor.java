@@ -31,17 +31,20 @@ public class Constructor {
     String brand = "Porsche";
     int wheel = 4;
     int door = 2;
+
     // creating a Constructor with a parameter
     //any time you create a Constructor , the DEFAULT CONSTRUCTOR IS GONE
     //DEFAULT CONSTRUCTOR LOOKS LIKE THIS --->   public className (){}
-    public Constructor(String brand){
+    public Constructor(String brand) {
         this.brand = brand;
     }
-    public Constructor(int door){
+
+    public Constructor(int door) {
         this.door = door;
     }
+
     //OVERLOADING THE CONSTRUCTOR...GIVING MORE PARAMETERS
-    public Constructor(String brand, int wheel){
+    public Constructor(String brand, int wheel) {
         //when you use this() calling a different constructor in this constructor should be on the first line
         this(4);//we CALLED THE DOOR CONSTRUCTOR IN THIS CONSTRUCTOR
         //EVERY TIME WE CALL THIS CONSTRUCTOR IN OTHER CLASSES IT WILL ASSIGN 4 ALWAYS TO THE DOOR INSTANCE
@@ -49,6 +52,7 @@ public class Constructor {
         this.wheel = wheel;
 
     }
+
     public static void main(String[] args) {
         Constructor porsche314 = new Constructor("Porsche 911");//we initialized the instance variable
         System.out.println(porsche314.brand);//Porsche 911
@@ -58,8 +62,5 @@ public class Constructor {
         System.out.println(example.wheel);//3
 
     }
-
-
-
 
 }
