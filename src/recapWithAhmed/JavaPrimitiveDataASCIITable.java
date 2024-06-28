@@ -32,7 +32,7 @@ public class JavaPrimitiveDataASCIITable {
     ASCII Table: It's a table/alphabet for all the characters(alphabet,digits,symbols,etc...)
 
     short a = 5;
-    short b = 6'
+    short b = 6;
     short c = a+b-2;
     sout(c)
 
