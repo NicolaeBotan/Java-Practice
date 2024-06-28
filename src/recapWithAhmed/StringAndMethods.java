@@ -9,7 +9,7 @@ public class StringAndMethods {
 
              2--> What is the difference between (.equals) and (==)
              - String (.equals) --> Making a comparison of "TWO VALUES"
-             Answer: First of all , that is a great question. I do nat use a lot (==) for a String value
+             Answer: First of all , that is a great question. I do not use a lot (==) for a String value
              comparison other than other primitive types(int,long).
              When I use String.equals() it compares only the VALUE of the data.
              When I use == which compares not only the Value but also Location of the Object.
@@ -109,7 +109,7 @@ public class StringAndMethods {
         int num = 5;
         int num2 = 3;
         String bucket = String.valueOf(num) + String.valueOf(num2);
-        //im attaching int num with num2 which is 52 as String
+        //im attaching int num with num2 which is 53 as String
         System.out.println(bucket);//53
 
         //contains()
