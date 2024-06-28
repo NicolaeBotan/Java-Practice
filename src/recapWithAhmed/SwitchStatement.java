@@ -19,6 +19,7 @@ public class SwitchStatement {
 
      */
     public static void main(String[] args) {
+        System.out.println("Please enter a number in the range 1 - 3 ");
         Scanner scanner = new Scanner(System.in);
         int options = scanner.nextInt();
         switch (options) {
