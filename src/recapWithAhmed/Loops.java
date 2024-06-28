@@ -57,19 +57,5 @@ public class Loops {
         System.out.println(reverse);
         System.out.println(multiplication);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
