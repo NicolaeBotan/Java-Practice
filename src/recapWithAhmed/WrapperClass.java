@@ -24,7 +24,7 @@ public class WrapperClass {
         List<Integer> numbers = new ArrayList<>();
 
         numbers.add(num); //AUTOBOXING -- added primitive to the List
-        numbers.get(0); //automatically happens converting the primitive data in to Object Integer
+        System.out.println(numbers.get(0)); //automatically happens converting the primitive data in to Object Integer
 
         //UNBOXING(Parsing)
         //--> Conversion from Object to Primitive.

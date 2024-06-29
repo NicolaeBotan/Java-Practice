@@ -12,7 +12,7 @@ public class GarbageCollector {
 
           2- How can you PROVE that Garbage Collector is working?
                 --> To be able to prove that GARBAGE COLLECTOR is working I override finalize method
-                from OBJECT Class.(Object Class is the Parent od every Class)
+                from OBJECT Class.(Object Class is the Parent of every Class)
 
           3- How can you make the element garbage?
                --> You can assign the value "null".
@@ -20,7 +20,7 @@ public class GarbageCollector {
                      int a=5
                      int b=3
                      b=a (3 is garbage now)
-          4- Do ypu have to call your garbage collector to clean up your codes?
+          4- Do you have to call your garbage collector to clean up your codes?
                 --> No you don't have to call the GARBAGE COLLECTOR because it's working automatically.
      */
 

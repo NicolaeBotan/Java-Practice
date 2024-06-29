@@ -12,7 +12,7 @@ public class ListOfConcepts {
     8- String Split Method
     9- Object Methods
     10- Constructor
-    11- Garbage Collection
+    11- Garbage Collector
     12- Wrapper Classes
     13- Multi Dimensional Array
     13- ArrayList -->linkedList and ArrayList ,List
